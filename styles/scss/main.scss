@@ -9,6 +9,9 @@ html, body {
     -moz-osx-font-smoothing: grayscale;
     font-size: 12px;
     line-height: 18px;
+
+    background: url("../../images/cubes.png");
+    background-repeat: repeat;
 }
 
 main {
@@ -57,10 +60,11 @@ h3 {
     padding: 10px 0;
 
     &-content {
-        width: 50%;
+        width: 60%;
+        text-align: justify;
     }
     &-image {
-        width: 50%;
+        width: 40%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
@@ -82,10 +86,11 @@ h3 {
     padding: 10px 0;
 
     &-content {
-        width: 50%;
+        width: 60%;
+        text-align: justify;
     }
     &-link {
-        width: 50%;
+        width: 40%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
