@@ -60,19 +60,20 @@ a:active {
 .section-content {
   width: 70%; }
 
-.purpose-image {
-  width: 30%;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center; }
-  .purpose-image-img {
-    display: block;
-    width: 250px;
-    height: 150px; }
-
-.purpose-container .section-content {
-  width: 100%;
-  text-align: center; }
+.purpose {
+  padding: 20px 0; }
+  .purpose-image {
+    width: 30%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .purpose-image-img {
+      display: block;
+      width: 250px;
+      height: 150px; }
+  .purpose-container .section-content {
+    width: 100%;
+    text-align: center; }
 
 .survey {
   background: #fff;
@@ -108,7 +109,8 @@ a:active {
   width: 100%; }
 
 .resources {
-  background: white;
+  background: #0081af;
+  color: #eee;
   padding: 20px 50px; }
   .resources-content {
     text-align: center; }
@@ -120,13 +122,14 @@ a:active {
       margin: 5px;
       width: 30%;
       padding: 5px 15px;
-      background: #0081af; }
+      background: #eee;
+      border-radius: 3px; }
       .resources-sections-section-head {
         height: 100px;
         text-align: center;
-        color: white; }
+        color: #0081af; }
       .resources-sections-section-p {
         font-size: 1.5rem;
         line-height: calc(1.5rem * 1.5);
         text-align: center;
-        color: white; }
+        color: #222; }

@@ -85,6 +85,7 @@ a:active {
 }
 
 .purpose {
+    padding: 20px 0;
     &-image {
         width: 30%;
         display: flex;
@@ -149,7 +150,8 @@ a:active {
 }
 
 .resources {
-    background: white;
+    background: #0081af;
+    color: #eee;
     padding: 20px 50px;
     &-content {
         text-align: center;
@@ -166,17 +168,18 @@ a:active {
             width: 30%;
             padding: 5px 15px;
             // border: solid 1px black;
-            background: #0081af;
+            background: #eee;
+            border-radius: 3px;
             &-head {
                 height: 100px;
                 text-align: center;
-                color: white;
+                color: #0081af;
             }
             &-p {
                 font-size: 1.5rem;
                 line-height: calc(1.5rem * 1.5);
                 text-align: center;
-                color: white;
+                color: #222;
             }
         }
     }
