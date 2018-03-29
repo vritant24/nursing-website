@@ -6,9 +6,9 @@ html, body {
     margin: 0;
     font-family: 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 12px;
-    line-height: 18px;
+    // -moz-osx-font-smoothing: grayscale;
+    font-size: 14px;
+    line-height: 21px;
 
     background: url("../../images/cubes.png");
     background-repeat: repeat;
@@ -74,7 +74,8 @@ a:active {
         margin: 0 auto;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: center;
+        align-items: center;
         padding: 10px 0;
     }
     
@@ -109,12 +110,17 @@ a:active {
 .survey {
     background: #fff;
     padding: 20px 0;
+
+    &-container {
+        flex-direction: column;
+        .section-content {
+            text-align: center;
+        }
+    }
     &-link {
-        width: 30%;
         display: flex;
         justify-content: flex-end;
         align-items: center;
-        padding-right: 25px;
         &-btn {
             background: #136f63;
             color: #eee;
