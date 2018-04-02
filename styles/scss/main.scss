@@ -177,6 +177,14 @@ a:active {
                 text-align: center;
                 color: #222;
             }
+            &-a {
+                color: #0081af;
+                text-decoration: none;
+            }
+            &-a:hover, &-a:focues {
+                text-decoration: underline;
+                color: #0081af;
+            }
         }
     }
 }
