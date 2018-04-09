@@ -80,7 +80,7 @@ a:active {
     }
     
     &-content {
-        width: 70%;
+        // width: 70%;
     }
 }
 
@@ -88,7 +88,7 @@ a:active {
     padding: 20px 0;
     &-container {
         .section-content {
-            width: 100%;
+            // width: 100%;
             text-align: center;
         }
     }
@@ -134,7 +134,7 @@ a:active {
 }
 
 .message {
-    background: #0c4c44;
+    background: #015d53;
     color: #eee;
     
     &-container {
@@ -203,7 +203,7 @@ input[type='checkbox'] {
     text-align: center;
   
     padding: 1rem;
-    color: #0081af;
+    color: #c28e0e;
     cursor: pointer;
   
     border-radius: 7px;
@@ -213,7 +213,7 @@ input[type='checkbox'] {
 }
   
 .lbl-toggle:hover {
-    color: #c28e0e;
+    color: #0081af;
 }
 
 .lbl-toggle::before {

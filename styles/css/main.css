@@ -56,13 +56,9 @@ a:active {
   align-items: center;
   padding: 10px 0; }
 
-.section-content {
-  width: 70%; }
-
 .purpose {
   padding: 20px 0; }
   .purpose-container .section-content {
-    width: 100%;
     text-align: center; }
 
 .survey {
@@ -93,7 +89,7 @@ a:active {
         background: #072c27; }
 
 .message {
-  background: #0c4c44;
+  background: #015d53;
   color: #eee; }
   .message-container {
     padding: 20px 40px;
@@ -141,14 +137,14 @@ input[type='checkbox'] {
   text-transform: uppercase;
   text-align: center;
   padding: 1rem;
-  color: #0081af;
+  color: #c28e0e;
   cursor: pointer;
   border-radius: 7px;
   transition: all 0.25s ease-out;
   min-height: 80px; }
 
 .lbl-toggle:hover {
-  color: #c28e0e; }
+  color: #0081af; }
 
 .lbl-toggle::before {
   content: ' ';
