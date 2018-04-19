@@ -102,6 +102,7 @@ a:active {
   .survey-link {
     cursor: pointer;
     background: #136f63;
+    text-align: center;
     margin: 0 auto;
     display: block;
     width: 150px;
