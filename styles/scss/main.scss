@@ -147,7 +147,8 @@ a:active {
         background: $primary;
         text-align: center;
         margin: 0 auto;
-        display: block;
+        padding: 0;
+        display: inline-block;
         width: 150px;
         height: 150px;
         margin-bottom: 20px;
