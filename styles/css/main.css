@@ -5,18 +5,18 @@ html, body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
   -webkit-font-smoothing: antialiased;
-  font-size: 13px;
-  line-height: calc(13px * 1.4);
+  font-size: 14px;
+  line-height: calc(14px * 1.4);
   background: url("../../images/cubes.png");
   background-repeat: repeat; }
   @media screen and (min-width: 600px) {
     html, body {
-      font-size: 14px;
-      line-height: calc(14px * 1.4); } }
+      font-size: 15px;
+      line-height: calc(15px * 1.4); } }
   @media screen and (min-width: 1000px) {
     html, body {
-      font-size: 16px;
-      line-height: calc(16px * 1.4); } }
+      font-size: 17px;
+      line-height: calc(17px * 1.4); } }
 
 main {
   width: 100vw;
@@ -55,7 +55,7 @@ a:active {
   text-decoration: none; }
 
 .gold-text {
-  color: #c28e0e; }
+  color: #222; }
 
 .top-gold {
   background: #c28e0e;
@@ -101,31 +101,34 @@ a:active {
   background: white; }
   .survey-link {
     cursor: pointer;
-    background: #136f63;
+    background: #4680af;
     text-align: center;
     margin: 0 auto;
+    padding: 0;
     display: block;
     width: 150px;
     height: 150px;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     color: white;
     font-size: 2rem;
     border: none;
     border-radius: 100px; }
     .survey-link:hover, .survey-link:focus {
       transition: 0.3s;
-      background: #136f63;
-      color: white; }
+      background: #222;
+      color: #4680af; }
     .survey-link:active {
-      background: #136f63; }
+      background: #4680af; }
     @media screen and (max-width: 900px) {
       .survey-link {
         width: 110px;
         height: 110px; } }
 
 .message {
-  background: #136f63;
+  background: #4680af;
   color: white; }
+  .message-title {
+    font-size: 1.6rem; }
 
 .resources-content {
   text-align: center;
@@ -143,11 +146,11 @@ a:active {
       color: white;
       padding: 20px 20px; }
     .resources-sections-section-a {
-      color: #c28e0e;
+      color: #222;
       text-decoration: none; }
     .resources-sections-section-a:hover, .resources-sections-section-a:focus {
       text-decoration: underline;
-      color: #c28e0e; }
+      color: #222; }
 
 input[type='checkbox'] {
   display: none; }
@@ -156,13 +159,13 @@ input[type='checkbox'] {
   display: block;
   font-weight: bold;
   text-transform: uppercase;
-  color: #136f63;
+  color: #4680af;
   cursor: pointer;
   transition: all 0.25s ease-out;
   margin-bottom: 10px; }
 
 .lbl-toggle:hover {
-  color: #c28e0e; }
+  color: #222; }
 
 .lbl-toggle::before {
   content: ' ';
@@ -176,7 +179,7 @@ input[type='checkbox'] {
   transition: transform .2s ease-out; }
 
 .collapsible-content .content-inner {
-  background: #136f63;
+  background: #4680af;
   border-radius: 5px;
   margin-bottom: 25px; }
 
