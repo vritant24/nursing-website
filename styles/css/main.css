@@ -29,8 +29,8 @@ p {
   padding: 0; }
 
 h1 {
-  font-size: 2.7rem;
-  line-height: calc(2.7rem * 1.5);
+  font-size: 2.9rem;
+  line-height: calc(2.9rem * 1.5);
   text-align: center; }
 
 h2 {
@@ -101,7 +101,7 @@ a:active {
   background: white; }
   .survey-link {
     cursor: pointer;
-    background: #4680af;
+    background: #4f799b;
     text-align: center;
     margin: 0 auto;
     padding: 0;
@@ -116,16 +116,16 @@ a:active {
     .survey-link:hover, .survey-link:focus {
       transition: 0.3s;
       background: #222;
-      color: #4680af; }
+      color: #4f799b; }
     .survey-link:active {
-      background: #4680af; }
+      background: #4f799b; }
     @media screen and (max-width: 900px) {
       .survey-link {
         width: 110px;
         height: 110px; } }
 
 .message {
-  background: #4680af;
+  background: #4f799b;
   color: white; }
   .message-title {
     font-size: 1.6rem; }
@@ -159,7 +159,7 @@ input[type='checkbox'] {
   display: block;
   font-weight: bold;
   text-transform: uppercase;
-  color: #4680af;
+  color: #4f799b;
   cursor: pointer;
   transition: all 0.25s ease-out;
   margin-bottom: 10px; }
@@ -179,7 +179,7 @@ input[type='checkbox'] {
   transition: transform .2s ease-out; }
 
 .collapsible-content .content-inner {
-  background: #4680af;
+  background: #4f799b;
   border-radius: 5px;
   margin-bottom: 25px; }
 
